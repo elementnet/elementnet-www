@@ -1,7 +1,7 @@
 # ElementNetwork™ (Alpha)
 [![Gitter](https://img.shields.io/badge/gitter-join_chat-1dce73.svg?logo=gitter-white)](https://gitter.im/elementnet/main)
 
-[![License](https://img.shields.io/github/license/elementnet/e.svg)](https://elementnet.js.org/LICENSE.txt)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://elementnet.js.org/LICENSE.txt)
 [![GitHub release](https://img.shields.io/github/release/elementnet/e.svg)](https://github.com/elementnet/e/releases)
 
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/elementnet/e.svg)](https://codeclimate.com/github/elementnet/e/issues?status%5B%5D=open&status%5B%5D=confirmed)

@@ -1,0 +1,3 @@
+ElementNetwork was created by MegaCode18, and the full list of contributors can be found on the GitHub page.
+We are currently in the alpha stage of development, and are looking for new contributors.
+ElementNetwork is a spin-off of Scratch by MIT, designed for web languages.

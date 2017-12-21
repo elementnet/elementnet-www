@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "test.js",
+    "start": "index.js"
+  },
+  "repository": "https://github.com/elementnet/elementnet.github.io.git",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "jquery": "latest",
+    "static-server": "latest"
+  },
+  "license": "Apache-2.0"
+}

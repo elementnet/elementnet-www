@@ -5,8 +5,8 @@
 [![GitHub release](https://img.shields.io/github/release/elementnet/e.svg)](https://github.com/elementnet/e/releases)
 
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/elementnet/e.svg)](https://codeclimate.com/github/elementnet/e/issues?status%5B%5D=open&status%5B%5D=confirmed)
-[![AppVeyor](https://img.shields.io/appveyor/ci/Code-Lyoko/elementnet-github-io.svg?logo=appveyor)](https://ci.appveyor.com/project/Code-Lyoko/elementnet-github-io)
-[![Codeship](https://img.shields.io/codeship/20580da0-c1ca-0135-e729-265f517797e2.svg)](https://app.codeship.com/projects/260416)
+[![AppVeyor](https://img.shields.io/appveyor/ci/Code-Lyoko/e.svg?logo=appveyor)](https://ci.appveyor.com/project/Code-Lyoko/e)
+[![Codeship](https://img.shields.io/codeship/52069e30-c8c4-0135-1586-5e72f9d08083.svg)](https://app.codeship.com/projects/261623)
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/elementnet/e.png?columns=all)](https://waffle.io/elementnet/e?utm_source=badge)
 

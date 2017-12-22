@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
-        "browser": true
+        "browser": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -66,7 +67,7 @@ module.exports = {
         "getter-return": "error",
         "global-require": "error",
         "guard-for-in": "error",
-        "handle-callback-err": "error",
+        "handle-callback-err": "off",
         "id-blacklist": "error",
         "id-length": "off",
         "id-match": "error",
@@ -119,7 +120,7 @@ module.exports = {
         "no-else-return": "error",
         "no-empty-function": "error",
         "no-eq-null": "error",
-        "no-eval": "error",
+        "no-eval": "off",
         "no-extend-native": "error",
         "no-extra-bind": "error",
         "no-extra-label": "error",
@@ -193,7 +194,7 @@ module.exports = {
         "no-useless-rename": "error",
         "no-useless-return": "off",
         "no-var": "off",
-        "no-void": "error",
+        "no-void": "off",
         "no-warning-comments": "error",
         "no-whitespace-before-property": "error",
         "no-with": "error",
@@ -211,7 +212,7 @@ module.exports = {
         "operator-linebreak": "error",
         "padded-blocks": "off",
         "padding-line-between-statements": "error",
-        "prefer-arrow-callback": "error",
+        "prefer-arrow-callback": "off",
         "prefer-const": "error",
         "prefer-destructuring": "error",
         "prefer-numeric-literals": "error",
@@ -247,7 +248,7 @@ module.exports = {
         "space-infix-ops": "error",
         "space-unary-ops": "error",
         "spaced-comment": "error",
-        "strict": "error",
+        "strict": "off",
         "switch-colon-spacing": "error",
         "symbol-description": "error",
         "template-curly-spacing": "error",

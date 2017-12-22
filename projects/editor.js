@@ -37,9 +37,9 @@ The == and != operators (== is called as =, != is called as %)
 Math.PI, and Math.E, written as P, and E
 Math.pow, written as a ^ operator (i.e. 5^2 means Math.pow(5, 2)
 Inputs (via $[number of input], max # of inputs is 10)
-Escape this character via using @escJs, and escape the @ character via @at. Example (in PHP):
+Escape this character via using @. Example (in PHP):
 (new Block('r', 'setVarToRandom', 'set variable %s to ~@~@~', 'Data', {
-    code: "$~$0~ = '~@escJs~~@at~~@escJs~~@at~~@escJs~'",
+    code: "$~$0~ = '~@~@~@~@~@~'",
     hidden: false,
     movable: true,
 })).render();

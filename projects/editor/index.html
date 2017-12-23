@@ -9,7 +9,8 @@ License: Apache 2.0
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
         <script src="/projects/editor.js"></script>
         <link href="/projects/editor.css" type="text/css" rel="stylesheet" media="all" />
@@ -32,7 +33,7 @@ License: Apache 2.0
         </script>
         <script src="https://widget.battleforthenet.com/widget.js" async></script>
     </head>
-    <body ng-app="editor">
+    <body>
     	<script>
     		if (window.location.protocol === "http" && window.location.slice(0, 7) === "http://") {
     		    window.location.replace("https" + window.location.href.slice(4));

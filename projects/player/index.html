@@ -9,7 +9,8 @@ License: Apache 2.0
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
         <script src="/projects/player.js"></script>
         <link href="/projects/player.css" type="text/css" rel="stylesheet" media="all" />
@@ -32,7 +33,7 @@ License: Apache 2.0
             }
         </script>
     </head>
-    <body ng-app="player">
+    <body>
         <div id="menus">
             <a href="/" id="home-btn">ElementNetwork</a><a href="../editor" id="create-btn">Create</a><!-- href's are javascript:void(0), because href=# would delete the project ID --><a href=".." id="explore-btn">Explore</a><a href="/about" id="about-btn">About</a><a href="/help" id="help-btn">Help</a>
         </div>

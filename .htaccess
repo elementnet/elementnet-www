@@ -3,7 +3,6 @@ ErrorDocument 401 401.html
 ErrorDocument 403 403.html
 ErrorDocument 404 404.html
 ErrorDocument 500 500.html
-<FilesMatch "400\.html|401\.html|402\.html|403\.html|404\.html|500\.html|\.htaccess|\.eslintrc\.js|\.gitignore|CODEOWNERS|.+\.md|_config\.yml|.+\.jsontest.js|index.js">
-  Order allow,deny
-  Deny from all
-</FilesMatch>
+
+Redirect 301 /help https://elementnet.github.io/help
+Redirect 301 /graphics https://elementnet.github.io/graphics

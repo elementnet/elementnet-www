@@ -16,7 +16,7 @@ cd elementnet-testing
 git reset --hard HEAD
 git clean -f -d
 # If you were told to switch branches, change master to that branch
-git pull origin master
+git pull origin develop
 npm install
 node index.js
 ```

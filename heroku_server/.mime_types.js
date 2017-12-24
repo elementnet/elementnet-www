@@ -1,3 +1,4 @@
+var mimeTypes = 
 {
   'a'      : 'application/octet-stream',
   'ai'     : 'application/postscript',

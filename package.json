@@ -9,6 +9,5 @@
     "jquery": "latest",
     "static-server": "latest",
     "string-hash": "latest"
-  },
-  "license": "Apache-2.0"
+  }
 }

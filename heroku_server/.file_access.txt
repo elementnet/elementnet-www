@@ -1,0 +1,15 @@
+# Lines starting with a pound are ignored
+# Use + and - to allow/disallow
+# You can * as a wildcard
+# Later statements override earlier statements
+# For example:
+# -/heroku_server/*
+# +/heroku_server/help.html
+# Will allow nothing in the heroku_server directory
+# Except for /heroku_server/help.html
+# Don't use whitespace between the symbols
+-/heroku_server/*
+-/40*.html
+-/500.html
+-/index.*
+-/h_index.*

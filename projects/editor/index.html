@@ -33,11 +33,6 @@ License: Apache 2.0
         </script>
     </head>
     <body>
-    	<script>
-    		if (window.location.protocol === "http" && window.location.slice(0, 7) === "http://") {
-    		    window.location.replace("https" + window.location.href.slice(4));
-    		}
-    	</script>
         <div id="menus">
             <a href="/" id="home-btn">ElementNetwork</a><a href="javascript:void(0)" id="file-menu">File</a><!-- href's are javascript:void(0), because href=# would delete the project ID --><a href="javascript:void(0)" id="edit-menu">Edit</a><a href="javascript:void(0)" id="share-menu" style="cursor:not-allowed">Share</a><a href="/help/editor" id="help-btn" target="_blank">Help</a>
         </div>

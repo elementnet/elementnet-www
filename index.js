@@ -1,7 +1,7 @@
 var StaticServer = require('static-server');
 var server = new StaticServer({
   rootPath: '.',
-  port: 8080
+  port: 7878
 });
 
 server.start(function () {

@@ -3,7 +3,7 @@ In order to beta test ElementNetwork, you will need [Git](https://git-scm.com), 
 
 Next, go into your terminal (regular terminal on Mac and Linux, Git Bash or Cygwin on Windows), and type this in:
 ```shell
-git clone https://github.com/elementnet/elementnet.github.io.git elementnet-testing
+git clone https://github.com/elementnet/e.git elementnet-testing
 cd elementnet-testing
 # If you were told to switch branches with a piece of code, do so here.
 npm install

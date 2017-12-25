@@ -60,3 +60,6 @@ div.non-editable-file {
     margin-left: 255px;
     display: inline-block;
 }
+#preview-iframe {
+    border: none;   
+}

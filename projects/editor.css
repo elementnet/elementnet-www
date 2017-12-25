@@ -45,6 +45,10 @@ li.menuitem {
     width: 100px;
     height: 32px;
 }
+#file-options, #edit-options {
+    position: absolute;
+    z-index: 1;
+}
 #file-options {
     margin-left: 180px;
     display: inline-block;
@@ -61,5 +65,6 @@ div.non-editable-file {
     display: inline-block;
 }
 #preview-iframe {
-    border: none;   
+    border: none;
+    position: absolute;
 }

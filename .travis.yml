@@ -15,7 +15,3 @@ deploy:
   on:
     branch: master
   fqdn: elementnet.js.org
-after_deploy:
-- rm .gitignore
-- git commit -m "Deploy - Remove Gitignore"
-- git push --force https://github.com/elementnet/e.git gh-pages

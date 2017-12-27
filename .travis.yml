@@ -4,14 +4,8 @@ script: true
 before_deploy:
 - rm .eslintrc.js
 - rm .gitignore
-- cd .github
-- rm *
-- cd ..
-- rmdir .github
-- cd heroku_server
-- rm *
-- cd ..
-- rmdir heroku_server
+- rm .github
+- rm heroku_server
 - rm index.js
 - rm .travis.yml
 - rm test.js

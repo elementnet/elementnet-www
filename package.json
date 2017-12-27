@@ -1,5 +1,5 @@
 {
-  "engines: {
+  "engines": {
     "node": "^9.3.0",
     "npm": "^5.5.1"
   },

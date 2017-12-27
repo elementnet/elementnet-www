@@ -3,7 +3,6 @@ install: npm install
 script: true
 before_deploy:
 - rm .eslintrc.js
-- rm .gitignore
 - rm -r .github
 - rm -r heroku_server
 - rm index.js
@@ -16,3 +15,6 @@ deploy:
   on:
     branch: master
   fqdn: elementnet.js.org
+after_deploy:
+- rm .gitignore
+- git push --force origin gh-pages

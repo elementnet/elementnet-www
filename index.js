@@ -1,11 +1,7 @@
 var StaticServer = require('static-server');
 var server = new StaticServer({
   rootPath: '.',
-  port: 7878,
-  templates: {
-    index: 'index.html',
-    notFound: '404.html'
-  }
+  port: 7878
 });
 
 server.start(function () {

@@ -5,6 +5,11 @@ Before creating, please make sure there are no duplicate issues already.
 -->
 ### User Info
 My user agent is `Insert string from http://www.useragentstring.com`
+<!-- If you tested other browsers, insert a bulleted list below: -->
+###### Also tested:
+* `string`
+* `string`
+* `string`
 
 ### Description of the issue
 <!-- Describe issue here -->

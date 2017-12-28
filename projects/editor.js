@@ -46,8 +46,7 @@ Escape this character via using @. Example (in PHP):
 Usage of this block:
 {set variable [lol] to ~@~@~} --> `$lol = '~@~@~'`
 */
-/* global jQuery */
-(function($) {
+function initBlocks ($) {
     'use strict';
     (function () {
         return;
@@ -108,4 +107,5 @@ Usage of this block:
             moveable: 'false'
         })).render();
     };
-}(jQuery));
+}
+void initBlocks;

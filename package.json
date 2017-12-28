@@ -4,8 +4,8 @@
     "npm": "^5.5.1"
   },
   "scripts": {
-    "test": "test.js",
-    "start": "index.js"
+    "test": "node test.js",
+    "start": "node index.js"
   },
   "repository": "https://github.com/elementnet/elementnet.github.io.git",
   "license": "Apache-2.0",

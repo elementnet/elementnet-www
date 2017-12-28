@@ -1,32 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700);
 * {
     font-family: "Source Code Pro";
-    background-color: aquamarine;
-    color: white;
-}
-div#menus {
-    background-color: aquamarine;
-    color: white;
-    text-decoration: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: inline-block;
-}
-a#home-btn {
-    font-family: "Poiret One";
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    font-weight: 900;
-}
-a#explore-btn, a#create-btn, a#about-btn, a#help-btn {
-    font-family: "Source Code Pro";
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: 600;
-    margin-left: 20px;
-}
-div#ctrl-btns {
-    float: right;
 }

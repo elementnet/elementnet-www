@@ -6,8 +6,7 @@ Next, go into your terminal (regular terminal on Mac and Linux, Git Bash or Cygw
 git clone https://github.com/elementnet/e.git elementnet-testing
 cd elementnet-testing
 # If you were told to switch branches with a piece of code, do so here.
-npm install
-node index.js
+npm install && npm start
 ```
 
 If `elementnet-testing` already exists, simply do:
@@ -17,8 +16,7 @@ git reset --hard HEAD
 git clean -f -d
 # If you were told to switch branches, change master to that branch
 git pull origin develop
-npm install
-node index.js
+npm install && npm start
 ```
 Now, go to `localhost:8080/projects/editor/`, and you should see the project editor
 

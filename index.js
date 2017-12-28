@@ -1,7 +1,8 @@
 var StaticServer = require('static-server');
+const PORT = process.env.PORT || 5000
 var server = new StaticServer({
   rootPath: '.',
-  port: 443,
+  port: PORT,
   templates: {notFound: '404.html'}
 });
 

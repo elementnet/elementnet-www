@@ -12,6 +12,7 @@ npm install && npm start
 If `elementnet-testing` already exists, simply do:
 ```shell
 cd elementnet-testing
+git fetch --all
 git reset --hard HEAD
 git clean -f -d
 # If you were told to switch branches, change master to that branch

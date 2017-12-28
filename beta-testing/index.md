@@ -19,6 +19,6 @@ git clean -f -d
 git pull origin develop
 npm install && npm start
 ```
-Now, go to `localhost:13873/projects/editor/`, and you should see the project editor
+Now, go to `localhost:13783/projects/editor/`, and you should see the project editor
 
 To stop the server, press `Ctrl+C` or `Cmd+C`.

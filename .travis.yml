@@ -1,15 +1,12 @@
 language: node_js
 node_js:
     - node
-    - iojs
     - lts/*
     - 8
     - 7
     - 6
     - 5
     - 4
-allow_failures:
-    - node_js: iojs
 install:
     - npm install
     - npm install -g npm-run-all

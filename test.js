@@ -5,7 +5,7 @@ test('test server', (t) => {
     t.plan(3);
     request('http://localhost:5000/projects/editor/', (error, response, body) => {
         t.false(error);
-        t.equal(response.responseCode, 200);
+        t.equal(response.statusCode, 200);
         t.notEqual(body.indexOf('New...'), -1);
     });
 });

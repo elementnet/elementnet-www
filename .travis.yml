@@ -8,6 +8,8 @@ node_js:
     - 6
     - 5
     - 4
+allow_failures:
+    - node_js: iojs
 install:
     - npm install
     - npm install -g npm-run-all

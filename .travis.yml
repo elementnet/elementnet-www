@@ -1,17 +1,13 @@
 language: node_js
-install: npm install
-script: true
-before_deploy:
-- rm .eslintrc.js
-- rm -r .github
-- rm -r heroku_server
-- rm index.js
-- rm .travis.yml
-- rm test.js
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: master
-  fqdn: elementnet.js.org
+node_js:
+    - node
+    - lts/*
+    - 8
+    - 7
+    - 6
+    - 5
+    - 4
+install:
+    - npm install
+    - npm install -g npm-run-all
+script: run-p test test_server

@@ -1,13 +1,23 @@
 {
-  "scripts": {
-    "test": "test.js",
-    "start": "index.js"
-  },
-  "repository": "https://github.com/elementnet/elementnet.github.io.git",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "jquery": "latest",
-    "static-server": "latest",
-    "string-hash": "latest"
+    "engines": {
+        "node": ">=8",
+        "npm": ">=5"
+    },
+    "scripts": {
+        "test": "node test.js",
+        "start": "node index.js",
+        "test_server": "node test_server.js"
+    },
+    "repository": "https://github.com/elementnet/elementnet.github.io.git",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "jquery": "latest",
+        "static-server": "latest",
+        "string-hash": "latest"
+    },
+  "devDependencies": {
+        "tape": "latest",
+        "request": "latest",
+        "npm-run-all": "latest"
   }
 }

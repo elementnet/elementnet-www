@@ -13,6 +13,8 @@
 
 **Editor (Back-end): <https://elementnet.herokuapp.com/projects/editor/>**
 
+**Editor (Nightly Server): <https://elementnet-dev.herokuapp.com/projects/editor>**
+
 **GitHub Organization: <https://github.com/elementnet>**
 
 **Scratch Forum Topic: <https://scratch.mit.edu/discuss/topic/286069>**

@@ -5,6 +5,12 @@
     color: white;
     text-align: center;
 }
+h1.errorThings {
+    font-size: 10em;
+}
+p.errorThings {
+    font-size: 4em;
+}
 body {
     background-color: aquamarine;
 }

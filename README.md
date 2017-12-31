@@ -13,7 +13,7 @@
 
 **Editor (Back-end): <https://elementnet.herokuapp.com/projects/editor/>**
 
-**Editor (Nightly Server): <https://elementnet-dev.herokuapp.com/projects/editor>**
+**Editor (Nightly Server): <https://elementnet-dev.herokuapp.com/projects/editor/>**
 
 **GitHub Organization: <https://github.com/elementnet>**
 

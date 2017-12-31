@@ -3,7 +3,7 @@ const PORT = process.env.PORT || 5000
 var server = new StaticServer({
   rootPath: '.',
   port: PORT,
-  templates: {notFound: '404.html', forbidden: '403.html'}
+  templates: {notFound: '404.html'}
 });
 
 server.start(function () {

@@ -1,9 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One:400);
-* {
+.errorThings {
     font-family: "Source Code Pro";
-    background-color: aquamarine;
     color: white;
+    text-align: center;
+}
+h1.errorThings {
+    font-size: 20vmin;
+}
+p.errorThings {
+    font-size: 4vmin;
+}
+body {
+    background-color: aquamarine;
 }
 div#menus {
     background-color: aquamarine;

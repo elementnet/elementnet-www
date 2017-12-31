@@ -11,6 +11,12 @@ h1.errorThings {
 p.errorThings {
     font-size: 4vmin;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.6;
+}
 body {
     background-color: aquamarine;
 }

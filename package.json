@@ -6,7 +6,7 @@
     "scripts": {
         "test": "istanbul cover ./test.js",
         "start": "node index.js",
-        "test_server": "node test_server.js"
+        "test_server": "istanbul cover ./test_server.js"
     },
     "repository": "https://github.com/elementnet/elementnet.github.io.git",
     "license": "Apache-2.0",

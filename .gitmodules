@@ -1,0 +1,3 @@
+[submodule "editor"]
+	path = elementnet-editor
+	url = git@github.com:elementnet/elementnet-editor

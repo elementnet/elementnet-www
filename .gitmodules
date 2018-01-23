@@ -1,3 +1,6 @@
 [submodule "editor"]
-	path = elementnet-editor
+	path = editor
 	url = git@github.com:elementnet/elementnet-editor
+[submodule "player"]
+	path = player
+	url = git@github.com:elementnet/elementnet-player

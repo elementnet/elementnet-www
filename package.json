@@ -13,5 +13,9 @@
     "jquery": "latest",
     "static-server": "latest",
     "string-hash": "latest"
+  },
+  "devDependencies": {
+    "find-in-files": "^0.4.0",
+    "prettier": "^1.10.2"
   }
 }

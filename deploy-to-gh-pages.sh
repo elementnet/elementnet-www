@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Make sure to delete elementnet-deploy or use a CI
 cd ..
-git clone --recursive git@github.com:elementnet/elementnet-www elementnet-deploy --branch=reorganize # for testing
+git clone --recursive git@github.com:elementnet/elementnet-www elementnet-deploy
 cd elementnet-deploy
+git checkout reorganize
+git pull origin reorganize # in case path exists
 mv gh-pages-config .
 rm -r heroku-config
 mv errors .

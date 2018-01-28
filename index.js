@@ -1,11 +1,13 @@
-var StaticServer = require('static-server');
-const PORT = process.env.PORT || 5000
-var server = new StaticServer({
-  rootPath: '.',
-  port: PORT,
-  templates: {notFound: '404.html'}
-});
+const staticServer = require('node-static');
 
-server.start(function () {
-  console.log('Server listening to', server.port);
-});
+var fileServer = new staticServer.Server();
+
+require('http')
+    .createServer(function(request, response) {
+        request
+            .addListener('end', function() {
+                fileServer.serve(request, response);
+            })
+            .resume();
+    })
+    .listen(8080);

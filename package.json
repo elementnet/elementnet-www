@@ -7,15 +7,33 @@
     "test": "node test.js",
     "start": "node index.js"
   },
-  "repository": "https://github.com/elementnet/elementnet.github.io.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementnet/elementnet.github.io.git"
+  },
   "license": "Apache-2.0",
   "dependencies": {
-    "jquery": "latest",
-    "static-server": "latest",
-    "string-hash": "latest"
+    "jquery": "^3.3.1",
+    "node-static": "^0.7.10",
+    "pwd": "^1.1.0"
   },
   "devDependencies": {
     "find-in-files": "^0.4.0",
     "prettier": "^1.10.2"
-  }
+  },
+  "name": "elementnet-www",
+  "description": "A web page and server for ElementNetwork",
+  "bugs": {
+    "url": "https://github.com/elementnet/elementnet.github.io/issues"
+  },
+  "homepage": "https://elementnet.js.org/",
+  "version": "0.1.0",
+  "main": "index.js",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "block"
+  ],
+  "author": "ElementNetwork"
 }

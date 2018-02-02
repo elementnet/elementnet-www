@@ -2,10 +2,7 @@ language: node_js
 install: npm install
 script: true
 
-before_deploy:
-- rm .eslintrc.js
-- rm -r .github
-- rm -r heroku_server
-- rm index.js
-- rm .travis.yml
-- rm test.js
+after_success:
+- ./deploy-to-gh-pages.sh
+- git remote add deploy https://$GH_TOKEN@github.com/elementnet/elementnet.github.io
+- git push --force deploy master

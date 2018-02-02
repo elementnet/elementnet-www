@@ -2,7 +2,8 @@ language: node_js
 install: npm install
 script: true
 
-after_success:
-- ./deploy-to-gh-pages.sh
-- git remote add deploy https://$GH_TOKEN@github.com/elementnet/elementnet.github.io
-- git push --force deploy master
+deploy:
+  provider: script
+  script: deploy-to-gh-pages.sh
+  on:
+    branch: master

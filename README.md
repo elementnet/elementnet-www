@@ -4,15 +4,16 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://elementnet.js.org/LICENSE.txt)
 [![GitHub release](https://img.shields.io/github/release/elementnet/e.svg)](https://github.com/elementnet/e/releases)
 
-[![Code Climate](https://img.shields.io/codeclimate/maintainability/elementnet/e.svg)](https://codeclimate.com/github/elementnet/e/issues?status%5B%5D=open&status%5B%5D=confirmed)
-[![Build Status](https://travis-ci.org/elementnet/e.svg?branch=develop)](https://travis-ci.org/elementnet/e)
-[![codecov](https://codecov.io/gh/elementnet/e/branch/develop/graph/badge.svg)](https://codecov.io/gh/elementnet/e)
+[![Code Maintainability](https://img.shields.io/codeclimate/maintainability/elementnet/e.svg)](https://codeclimate.com/github/elementnet/e/issues?status%5B%5D=open&status%5B%5D=confirmed)
+[![Build Status](https://travis-ci.org/elementnet/elementnet-www.svg?branch=develop)](https://travis-ci.org/elementnet/elementnet-www)
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/elementnet/e.png?columns=all)](https://waffle.io/elementnet/e?utm_source=badge)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/elementnet/elementnet-www.png?columns=all)](https://waffle.io/elementnet/elementnet-www?utm_source=badge)
 
 **Editor (Front-end): <https://elementnet.js.org/projects/editor/>**
 
 **Editor (Back-end): <https://elementnet.herokuapp.com/projects/editor/>**
+
+**Editor (Nightly Server): <https://elementnet-dev.herokuapp.com/projects/editor/>**
 
 **GitHub Organization: <https://github.com/elementnet>**
 

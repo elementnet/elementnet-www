@@ -6,8 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>500 Internal Server Error</title>
         <link href="/error.css" rel="stylesheet" type="text/css" media="all" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            if (window.location.href.slice(0,23).match(/.+js.+/)) {
+                $('serverSideOnly').hide();
+            }
+        </script>
     </head>
     <body>
-        <h1>500 Internal Server Error</h1>
+        <div id="menus">
+            <a href="/" id="home-btn">ElementNetwork</a><a href="/projects/editor" id="create-btn">Create</a><a href="/projects" id="explore-btn">Explore</a><a href="/about" id="about-btn">About</a><a href="/help" id="help-btn">Help</a>
+        </div>
+        <h1 class="errorThings">500</h1>
+        <p class="errorThings">Our servers messed up</p>
+        <p class="errorThings">Sometimes we make mistakes too...</p>
+        <p class="errorThings" id="serverSideOnly"><a href="https://elementnet.js.org/elementnet-editor/">Try our other site if you want to use the editor</a></p>
     </body>
 </html>
